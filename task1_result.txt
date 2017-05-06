@@ -1,0 +1,27 @@
+/usr/bin/python2.7 /pd/ms_test/task1.py
+INFO:csv import:Table 'A' before insert:
+ id code    date    amount
+--- ---- ---------- ------
+  1  A-1 2017-10-10     50
+  2  A-2 2017-10-10     50
+  3  A-3 2017-10-10     50
+WARNING:csv import:Line 12. Field 'code' is empty
+WARNING:csv import:Line 2. Field 'amount' is not positive
+WARNING:csv import:Line 14. Field 'post_date' got wrong date format
+WARNING:csv import:Line 3. Field 'amount' is not decimal
+WARNING:csv import:Line 13. Field 'post_date' got wrong date format
+INFO:csv import:Table 'A' after insert:
+ id  code    date    amount
+--- ----- ---------- ------
+  1   A-1 2017-10-10     50
+  2   A-2 2017-10-10     50
+  3   A-3 2017-10-10     50
+  4 A-100 2017-11-23    900
+  5 A-100 2017-11-23     99
+  6 A-100 2017-11-24    100
+  7 A-101 2017-11-23      1
+  8 A-102 2017-11-25    300
+  9 A-102 2017-11-25    400
+ 10 A-103 2017-11-24      1
+
+Process finished with exit code 0

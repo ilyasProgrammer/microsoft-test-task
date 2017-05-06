@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Import CSV data to postgres database
+"""Import CSV data to PostgreSQL database
 
 Make sure you got PostgreSQL service running
 Create some database and set some owner (user) to it
